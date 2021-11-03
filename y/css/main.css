@@ -157,6 +157,10 @@ img {
     font-weight: var(--font-medium);
 }
 
+.idioma {
+    justify-self: flex-end;
+}
+
 .nav__toggle {
     font-size: 1.1rem;
     cursor: pointer;
@@ -391,5 +395,9 @@ img {
     .home__social-icon {
         padding: 1rem;
         justify-content: space-between;
+    }
+
+    .idioma {
+        order: 3;
     }
 }
